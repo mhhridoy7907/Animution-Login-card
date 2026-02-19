@@ -1,2 +1,13 @@
-# Animution-Login-card
-Animated Login Card UI built with HTML, CSS, and JavaScript. Features smooth transitions, modern glassmorphism design, and responsive layout for stylish authentication interfaces.
+✨ Animution Login Card
+🚀 About The Project
+
+Animution Login Card is a stylish animated login UI component built using HTML, CSS, and JavaScript.
+It features smooth transitions, glowing glassmorphism effects, and modern responsive design — perfect for authentication pages and frontend showcases.
+
+🌐 Live Demo
+![Privew](loggg.png)
+### 🛠️ Built With
+- HTML5
+- CSS
+- JavaScript
+
