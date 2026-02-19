@@ -1,0 +1,70 @@
+    * {margin: 0;padding: 0; box-sizing: border-box; font-family: monospace;}
+body {height: 100vh; display: flex; justify-content: center; align-items: center; background: black; overflow: hidden; color: #00ff00;}
+canvas {position: fixed; top: 0; left: 0; z-index: -1;}
+.login-box {width: 380px; padding: 40px; background: rgba(0, 20, 0, 0.8);
+      border: 2px solid #00ff00;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff00;
+      text-align: center;
+      animation: glowPulse 2s infinite;
+    }
+ @keyframes glowPulse {
+      0%, 100% { box-shadow: 0 0 20px #00ff00; }
+      50% { box-shadow: 0 0 40px #00ff00; }
+    }
+ .login-box h2 {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00;
+      letter-spacing: 2px;
+    }
+.input-box {
+      margin-bottom: 20px;
+    }
+ .input-box input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      border-radius: 6px;
+      background: black;
+      color: #00ff00;
+      font-size: 16px;
+      border: 2px solid #00ff00;
+      caret-color: #00ff00;
+      transition: 0.3s;
+    }
+.input-box input:focus {
+      background: #001a00;
+      box-shadow: 0 0 15px #00ff00;
+    }
+.btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      background: #00ff00;
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+.btn:hover {
+      background: black;
+      color: #00ff00;
+      border: 2px solid #00ff00;
+      box-shadow: 0 0 20px #00ff00;
+    }
+.extra {
+      margin-top: 15px;
+    }
+.extra a {
+      color: #00ff00;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+.extra a:hover {
+      text-shadow: 0 0 10px #00ff00;  }
